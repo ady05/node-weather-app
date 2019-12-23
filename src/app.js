@@ -4,6 +4,7 @@ const geocode = require('../geocode.js')
 const forecast = require('../forecast.js')
 
 const app = express()
+const port = process.env.PORT || 30000
 const hbs = require('hbs')
 
 console.log(__dirname)
@@ -86,7 +87,7 @@ app.get('*',(req,res) =>{
 
 
 
-app.listen(30000,()=>{
+app.listen(port,()=>{
     console.log('server is running')
 })
 
