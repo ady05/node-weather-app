@@ -9,6 +9,7 @@ const msg2 =document.querySelector('#message2')
 msg1.textContent = ''
 
 form.addEventListener('submit',(e) =>{
+    e.preventDefault()
     const location = search.value
     msg1.textContent='loading...'
     msg2.textContent=''
