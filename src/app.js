@@ -9,7 +9,7 @@ const hbs = require('hbs')
 
 console.log(__dirname)
 const pathfile = path.join(__dirname,'../public')
-const viewsPath ='/home/adithya/firstapp/web-server/templates/views'
+const viewsPath = path.join(__dirname,'../templates/views')
 const partialpath = '/home/adithya/firstapp/web-server/templates/partials'
 console.log(partialpath)
 
