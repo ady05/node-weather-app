@@ -4,7 +4,7 @@ const geocode = require('../geocode.js')
 const forecast = require('../forecast.js')
 
 const app = express()
-const port = process.env.PORT || 30000
+const port = process.env.PORT 
 const hbs = require('hbs')
 
 console.log(__dirname)
